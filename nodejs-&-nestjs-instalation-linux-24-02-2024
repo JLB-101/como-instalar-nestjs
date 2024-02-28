@@ -1,0 +1,16 @@
+nodejs linux - ubuntu instalation
+
+1.download a tar file on: https://nodejs.org/en/download
+2.in download folder: tar -xf node-v20.11.1-linux-x64.tar.xz
+3.got to bin: node-v20.11.1-linux-x64.tar.xz cd bin/
+4. move nodejs folder to ~/
+5. make globall acess: sudo nano .bashrc
+6. write: "export PATH=$PATH:/home/lb/nodejs/bin"
+
+nestjs linux - ubuntu instalation
+7. Nest CLI instalation: npm i -g @nestjs/cli
+8. yarm npm instalation: npm install --global yarn
+9. nest new project-name
+
+# update npm
+Run npm install -g npm@10.4.0 to update!
